@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <title>Ecommerce Template</title>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>    
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Important Owl stylesheet -->
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+ 
+  <!-- Default Theme -->
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+  
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+  <script src="owl-carousel/owl.carousel.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <style type="text/css">
+    #main-slider {
+      position: relative;
+    }
+    #main-slider .owl-prev, #main-slider .owl-next {
+      position: absolute;
+      top: 150px;
+      opacity: 1;
+      background: #254bc2;
+    }
+    #main-slider .owl-prev {
+      left: 10px;
+    }
+    #main-slider .owl-next {
+      right: 10px;
+    }
+  </style>
+  
+  
+</head>
+<body>
+
+
+
+
+
+
+
+  <header id="test">  
+    <div class="container">
+
+    
+
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <img src="../logo_2.png" alt="" style="width:200px;height:110px;">
+            <p class="subtext">Bootstrap Ecommerce Template</p>
+          
+
+          </div>
+
+          <nav class="navbar1 navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar1" class="navbar-collapse collapse">
+            <ul class="nav1 navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Whats New</a></li>
+              <li><a href="#">Specials</a></li>
+              <li><a href="#">My Account</a>
+                <div class="row map">
+                  <div class="col-md-4">
+                    <h3> Age</h3>
+                <a href="https://tinhte.vn/"> <p>Robot BanDai</p></a>
+                <p>Robot điều khiển từ </p>
+                <p>Robot điểu khiển bằng tay<p>
+                <p>Siêu nhân BanDai</p>
+
+
+                  </div>
+
+                </div>
+
+
+
+
+              </li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+            <!-- <div id="main-menu" class="col-sm-12 col-md-9 main-menu">
+        <ul id="menu-menu-top">
+          <li><a href="#"> Trang chu</li></a>
+          <li><a href="#">Khuyen mai</li></a>
+          <li><a href="#">Xu the</li></a>
+          <li><a href="#">Qua tang</li></a>
+          <li><a href="#">Lien he</li></a>
+        </ul>
+      </div> -->  
+
+
+          <!-- <div class="col-md-8 col-sm-12">
+          <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputPassword3">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Sign in</button>
+        </form>
+          </div> -->
+          
+         </div> 
+        </div>
+      </header>
+
+
+
+  <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav" id="troxuong">
+
+              <li class="active"><a href="#">
+              <i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+
+              <span class="dm">DANH MỤC SẢN PHẨM </span>
+             </a>            
+              </li>
+    
+            </ul>
+
+
+            <ul class="nav navbar-nav navbar-left">
+               <div class="input-group" id="adv-search">
+                  <input type="text" class="form-control" placeholder="Nhập tên sản phẩm bạn muốn mua cho bé" />
+                  <div class="input-group-btn">
+                      <div class="btn-group" role="group">
+                          <div class="dropdown dropdown-lg">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                              <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                  <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                      <label for="filter">Filter by</label>
+                                      <select class="form-control">
+                                          <option value="0" selected>All Snippets</option>
+                                          <option value="1">Featured</option>
+                                          <option value="2">Most popular</option>
+                                          <option value="3">Top rated</option>
+                                          <option value="4">Most commented</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="contain">Author</label>
+                                      <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="contain">Contains the words</label>
+                                      <input class="form-control" type="text" />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                  </form>
+                              </div>
+                          </div>
+                          <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                      </div>
+                  </div>
+              </div>     
+            
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+            <div class="mycart">
+              <ul>            
+              <li><p style="font-size: 17px;color: #fff;padding-top:15px;padding-left: 18px;">My Cart</p></li>
+
+              <li><img src="../img/shoppingcart.png" alt="" style="width:20px;padding-top: 2px;width: 50px;"></li>
+              <ul>
+             </div> 
+            </ul>
+            </div>
+            
+            
+            
+            
+
+
+
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      
+       
+    
+
+    
+
+
+
+     <!-- Main component for a primary marketing message or call to action -->
+<!--       <div class="jumbotron"> 
+ -->
+
+
+
+        <!-- <ul class=" tablist nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+      </ul> -->
+
+  <!-- Tab panes -->
+      <!-- <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">...
+            <div class="tab-text">
+              <h2>GUNDAM IRONMAN</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <a href="#" class="btn btn-default">READ MORE</a>
+            </div>
+            <img src="../img/gundam1.jpg" class="slide-img">
+
+      </div>        
+
+
+          <div role="tabpanel" class="tab-pane" id="profile">...
+
+
+
+
+          </div>
+          <div role="tabpanel" class="tab-pane" id="messages">...</div>
+          <div role="tabpanel" class="tab-pane" id="settings">...</div>
+      </div> -->
+
+<!--       </div> 
+ --> 
+ 
+
+  <div id="wrap">
+  <div id="grid">
+    <div class="column column1">
+    <div class="step" id="step1">
+      <div class="number">
+        <span>1</span>
+      </div>
+      <div class="title">
+        <h1>Email Address</h1>
+      </div>
+      <div class="modify">
+        <i class="fa fa-plus-circle"></i>
+      </div>
+    </div>
+    <div class="content" id="email">
+      <form class="go-right">
+        <div>
+        <input type="email" name="email" value="" id="email-address" placeholder="Email Address" data-trigger="change" data-validation-minlength="1" data-type="email" data-required="true" data-error-message="Enter a valid email address."/><label for="email">Email Address</label>
+        </div>
+        <button class="login">Login</button>
+        <button class="create">Create Account</button>
+      </form>
+      <a class="continue" href="#">Continue</a>
+    </div>
+    <div class="step" id="step2">
+      <div class="number">
+        <span>2</span>
+      </div>
+      <div class="title">
+        <h1>Billing Information</h1>
+      </div>
+    </div>
+    <div class="content" id="address">
+      <form class="go-right">
+        <div>
+        <input type="name" name="first_name" value="" id="first_name" placeholder="tên" data-trigger="change" data-validation-minlength="1" data-type="name" data-required="true" data-error-message="Enter Your First Name"/><label for="first_name">Tên </label>
+        </div>
+        
+        <div>
+        <input type="name" name="last_name" value="" id="last_name" placeholder="Last Name" data-trigger="change" data-validation-minlength="1" data-type="name" data-required="true" data-error-message="Enter Your Last Name"/><label for="last_name">Last Name</label>
+        </div>
+        <div>
+        <input type="phone" name="telephone" value="" id="telephone" placeholder="Phone(555)-555-5555" data-trigger="change" data-validation-minlength="1" data-type="number" data-required="true" data-error-message="Enter Your Telephone Number"/><label for="telephone">Telephone</label>
+        </div>
+        <div>
+        <input type="text" name="company" value="" id="company" placeholder="Company" data-trigger="change" data-validation-minlength="1" data-type="name" data-required="false"/>
+          <label for="Company">Company</label>
+        </div>
+        <div>
+        <input type="text" name="address" value="" id="address" placeholder="Address" data-trigger="change" data-validation-minlength="1" data-type="text" data-required="true" data-error-message="Enter Your Billing Address"/><label for="Address">Address</label>
+        </div>
+        <div>
+        <input type="text" name="city" value="" id="city" placeholder="City" data-trigger="change" data-validation-minlength="1" data-type="text" data-required="true" data-error-message="Enter Your Billing City"/><label for="city">City</label>
+        </div>
+        <div>
+        <div class="state_options">
+              <div class="select">
+                    <select id="state">
+                        <option value = "1">Alabama</option>
+                        <option value = "2">Alaska</option>
+                        <option value = "3">Arkansas</option>
+                        <option value = "4">Etc.</option>
+                    </select>
+                  </div>
+                  <label class="state" for="state">State</label>
+              </div>
+        </div>
+        <div>
+        <input type="text" name="zip" value="" id="zip" placeholder="Zip Code" data-trigger="change" data-validation-minlength="1" data-type="text" data-required="true" data-error-message="Enter Your Billing Zip Code"/><label for="zip">Zip Code</label>
+        </div>
+        <div>
+        <div class="country_options">
+              <div class="select">
+                    <select id="country">
+                        <option value = "1">United States</option>
+                        <option value = "2">United Kingdom</option>
+                        <option value = "3">Uganda</option>
+                        <option value = "4">Etc.</option>
+                    </select>
+                  </div>
+                <label class="country" for="country">Country</label>
+              </div>
+        </div>
+        <div>
+        <input type="checkbox"/>
+        <label class="same" for="same_as_shipping">Same As Shipping Address</label><span></span>
+        </div>
+      </form>
+      <a class="continue" href="#">Continue</a>
+    </div>
+  </div>
+  <div class="column column2">
+    <div class="step" id="step3">
+      <div class="number">
+        <span>3</span>
+      </div>
+      <div class="title">
+        <h1>Shipping Information</h1>
+      </div>
+      <div class="modify">
+        <i class="fa fa-plus-circle"></i>
+      </div>
+    </div>
+    <div class="content" id="shipping">
+      <form action="" method="" name="">
+        <div>
+          <input type="radio" id="shipping_1" value="1"/><label for="shipping_1"> Standard Shipping <span class="price">$4.00</span></label>
+        </div>
+        <p>   
+          <input type="radio" id="shipping_2" value="2"/><label for="shipping_2"> Express Shipping <span class="price">$8.00</span></label>
+        </p>
+        <p>   
+          <input type="radio" id="shipping_3" value="3"/><label for="shipping_3"> Overnight Shipping <span class="price">$12.00</span></label>
+        </p>
+      </form>
+      <a class="continue" href="#">Continue</a>
+    </div>
+    <div class="step" id="step4">
+      <div class="number">
+        <span>4</span>
+      </div>
+      <div class="title">
+        <h1>Payment Information</h1>
+      </div>
+      <div class="modify">
+        <i class="fa fa-plus-circle"></i>
+      </div>
+    </div>
+    <div class="content" id="payment">
+      <div class="left">
+      <form class="go-right">
+        <div>
+        <input type="text" name="card_number" value="" id="card_number" placeholder="xxxx-xxxx-xxxx-xxxx" data-trigger="change" data-validation-minlength="1" data-type="name" data-required="true" data-error-message="Enter Your Credit Card Number"/><label for="card_number">Card Number</label>
+        </div>
+        <div>
+          <div class="expiry">  
+              <div class="month_select">
+                <select name="exp_month" value="" id="exp_month" placeholder="" data-trigger="change" data-type="name" data-required="true" data-error-message="Enter Your Credit Card Expiration Date">
+              <option value = "1">01 (Jan)</option>
+                        <option value = "2">02 (Feb)</option>
+                        <option value = "3">03 (Mar)</option>
+                        <option value = "4">04 (Apr)</option>
+                        <option value = "5">05 (May)</option>
+                        <option value = "6">06 (Jun)</option>
+                        <option value = "7">07 (Jul)</option>
+                        <option value = "8">08 (Aug)</option>
+                        <option value = "9">09 (Sep)</option>
+                        <option value = "10">10 (Oct)</option>
+                        <option value = "11">11 (Nov)</option>
+                        <option value = "12">12 (Dec)</option>
+                        </select>
+                      </div>
+                      <div class="year_select">
+                <select name="exp_year" value="" id="exp_year" placeholder="" data-trigger="change" data-type="name" data-required="true" data-error-message="Enter Your Credit Card Expiration Date">
+              <option value = "1">14 </option>
+                        <option value = "2">15 (Feb)</option>
+                        <option value = "3">16 (Mar)</option>
+                        <option value = "4">17 (Apr)</option>
+                        <option value = "5">18 (May)</option>
+                        <option value = "6">19 (Jun)</option>
+                        <option value = "7">20 (Jul)</option>
+                        <option value = "8">22 (Aug)</option>
+                        <option value = "9">23 (Sep)</option>
+                        <option value = "10">24 (Oct)</option>
+                        <option value = "11">25 (Nov)</option>
+                        <option value = "12">26 (Dec)</option>
+                        </select>
+                    </div>
+                  <label class="exp_date" for="Exp_Date">Exp Date</label>
+                  </div>
+                </div>
+              <div class="sec_num">
+              <div>
+                <input type="text" name="ccv" value="" id="ccv" placeholder="123" data-trigger="change" data-validation-minlength="3" data-type="name" data-required="true" data-error-message="Enter Your Card Security Code"/><label for="ccv">Security Code</label>
+              </div>
+              </div>
+            </form>
+      </div>
+      <div class="right">
+        <div class="accepted">
+          <span><img src="img/Z5HVIOt.png"></span>
+          <span><img src="img/Le0Vvgx.png"></span>
+          <span><img src="img/D2eQTim.png"></span>
+          <span><img src="img/Pu4e7AT.png"></span>
+          <span><img src="img/ewMjaHv.png"></span>
+          <span><img src="img/3LmmFFV.png"></span>
+        </div>
+        <div class="secured">
+          <img class="lock" src="img/lock.png">
+          <p class="security info">What, well you mean like a date? Doc? Am I to understand you're still hanging around with Doctor Emmett Brown, McFly? Tardy slip for you, Miss Parker. And one for you McFly I believe that makes four in a row.</p>
+        </div>
+      </div>
+      <a class="continue" href="#">Continue</a>
+    </div>
+  </div>
+  <div class="column column3">
+    <div class="step" id="step5">
+      <div class="number">
+        <span>5</span>
+      </div>
+      <div class="title">
+        <h1>Finalize Order</h1>
+      </div>
+      <div class="modify">
+        <i class="fa fa-plus-circle"></i>
+      </div>
+    </div>
+    <div class="content" id="final_products">
+      <div class="left" id="ordered">
+        <div class="products">
+          <div class="product_image">
+            <img src="img/lady.jpg"/>
+          </div>
+          <div class="product_details">
+            <span class="product_name">Cherry Bikini</span>
+            <span class="quantity">1</span>
+            <span class="price">$45.00</span>
+          </div>
+        </div>
+        <div class="totals">
+          <span class="subtitle">Subtotal <span id="sub_price">$45.00</span></span>
+          <span class="subtitle">Tax <span id="sub_tax">$2.00</span></span>
+          <span class="subtitle">Shipping <span id="sub_ship">$4.00</span></span>
+        </div>
+        <div class="final">
+          <span class="title">Total <span id="calculated_total">$51.00</span></span>
+        </div>
+      </div>  
+      <div class="right" id="reviewed">
+        <div class="billing">
+          <span class="title">Billing:</span>
+          <div class="address_reviewed">
+            <span class="name">John Smith</span>
+            <span class="address">123 Main Street</span>
+            <span class="location">Everytown, USA, 12345</span>
+            <span class="phone">(123)867-5309</span>
+          </div>
+        </div>
+        <div class="shipping">
+          <span class="title">Shipping:</span>
+          <div class="address_reviewed">
+            <span class="name">John Smith</span>
+            <span class="address">123 Main Street</span>
+            <span class="location">Everytown, USA, 12345</span>
+            <span class="phone">(123)867-5309</span>
+          </div>
+        </div>
+        <div class="payment">
+          <span class="title">Payment:</span>
+          <div class="payment_reviewed">
+            <span class="method">Visa</span>
+            <span class="number_hidden">xxxx-xxxx-xxxx-1111</span>
+          </div>
+        </div>
+        <div id="complete">
+        <a class="big_button" id="complete" href="#">Complete Order</a>
+        <span class="sub">By selecting this button you agree to the purchase and subsequent payment for this order.</span> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+ <footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> CÔNG TY </h3>
+                    <ul>
+                        <li> <a href="#"> GIỚI THIỆU CÔNG TY </a> </li>
+                        <li> <a href="#"> LIÊN HỆ BẢN ĐỒ </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> CHÍNH SÁCH </h3>
+                    <ul>
+                        <li> <a href="#"> Chính sách và qui định chung </a> </li>
+                        <li> <a href="#"> Chính sách bảo hành </a> </li>
+                        <li> <a href="#"> Chính sách đổi và trả hàng </a> </li>
+                        <li> <a href="#"> Chính sách giao hàng </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> KHÁCH HÀNG </h3>
+                    <ul>
+                        <li> <a href="#"> Bảo mật thông tin khách hàng </a> </li>
+                        <li> <a href="#"> Chăm sóc khách hàng </a> </li>
+                        <li> <a href="#"> Hướng dẫn mua hàng  </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> SHOWROOM </h3>
+                    <ul>
+                        <li> <i class="fa fa-2x fa-phone" aria-hidden="true"></i>  0966669894</li>
+                        <li> <i class="fa fa-home fa-2x" aria-hidden="true"></i> 14 ngach 12 Nguyen Dinh Chieu ,TP Ha Noi </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <ul class="social">
+                        <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                  <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+</footer>
+
+
+
+
+  
+</body>
+</html>
