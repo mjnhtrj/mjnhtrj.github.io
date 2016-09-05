@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+
+<link rel="stylesheet" href="./style.css">
+
+
+
+	
+	
+</head>
+<body>
+
+
+<div id="snow"></div>
+
+
+<div class="wrap">
+
+		
+            <div class="timer">
+
+        	<progress id="progressBar" value="100" max="0" style="width:1200px;"></progress>
+			<span id="status"></span>
+			<h1 id="finalMessage"></h1>
+
+           <!-- <div class="progressbar" style="display: inline;">
+               <progress max="100" value="100"></progress>
+            </div> -->
+                
+        
+        	</div>
+            
+        
+ 
+			
+	<div class="content">
+	</div>
+</div>
+
+<div class="modal begin">
+        <div class="dialog">
+            <h1>Memory card</h1>
+            <h2>Choose play mode</h2>
+            <button class="btn btn-start normal" onclick="startGame(1)">Normal</button>
+            <button class="btn btn-start hard" onclick="startGame(2)">Hard</button>
+        </div>
+    </div>
+
+
+
+
+<audio id="bg-musicc">
+    <source src="music/IDo-911.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="bg-music">
+    <source src="music/correct.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="bg-music2">
+    <source src="music/gameover.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<script language="javascript" src="https://code.jquery.com/jquery-2.0.0.min.js"></script>	
+<script language="javascript" src="./JS/jquerry.js"></script>
+
+
+
+	
+</body>
+</html>
